@@ -4,13 +4,12 @@ import './App.css';
 import {createBrowserRouter, createRoutesFromElements,Route,RouterProvider} from 'react-router-dom'
 import RootLayout from './componets/RootLayout';
 import Dashboard from './componets/Dashboard';
-import CartComponent from './componets/Cart';
 
 function App() {
 
   const router = createBrowserRouter(createRoutesFromElements(
-    <Route path='/e-cart' element={<RootLayout/>}>
-      <Route index element = {<Dashboard/>}></Route> 
+    <Route path='/' element={<RootLayout/>}>
+      <Route path='/e-cart' element = {<Dashboard/>}></Route> 
       <Route path='/cart' element = {< CartComponent />}></Route>
 
     </Route>
