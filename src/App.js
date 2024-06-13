@@ -9,7 +9,7 @@ import CartComponent from './componets/Cart';
 function App() {
 
   const router = createBrowserRouter(createRoutesFromElements(
-    <Route path='/' element={<RootLayout/>}>
+    <Route path='/e-cart' element={<RootLayout/>}>
       <Route index element = {<Dashboard/>}></Route> 
       <Route path='/cart' element = {< CartComponent />}></Route>
 
