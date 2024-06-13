@@ -4,6 +4,7 @@ import './App.css';
 import {createBrowserRouter, createRoutesFromElements,Route,RouterProvider} from 'react-router-dom'
 import RootLayout from './componets/RootLayout';
 import Dashboard from './componets/Dashboard';
+import CartComponent from './componets/Cart';
 
 function App() {
 
