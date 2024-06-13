@@ -18,7 +18,7 @@ const NavBar = () => {
                 </div>
                 <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
                     <Menu.Item key="1">
-                        <Link to="/">Product</Link>
+                        <Link to="/e-cart">Product</Link>
                     </Menu.Item>
                     <Menu.Item key="2" style={{ marginLeft: 'auto' }}>
                         <Link to="/cart">
